@@ -24,7 +24,7 @@ jobs:
             -e "ssh -i deploy_key -o StrictHostKeyChecking=no" \
             . $USER@$HOST:~/mcp-server
 
-      - name: Restart MCP Server service
-        run: |
-          ssh -i deploy_key -o StrictHostKeyChecking=no $USER@$HOST \
-            "sudo systemctl restart mcp-server"
+      # - name: Restart MCP Server service
+      #   run: |
+      #     ssh -i deploy_key -o StrictHostKeyChecking=no $USER@$HOST \
+      #       "sudo systemctl restart mcp-server"
