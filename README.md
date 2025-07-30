@@ -22,24 +22,6 @@ This MCP server implements the [Model Context Protocol](https://modelcontextprot
 - Node.js (version 16 or higher)
 - npm or yarn package manager
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd mcp-server
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create a `.env` file (optional, for environment-specific configuration):
-```bash
-cp .env.example .env
-```
-
 ## Usage
 
 ### Configuring Claude Desktop
