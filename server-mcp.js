@@ -166,7 +166,7 @@ app.post('/mcp', async (req, res) => {
             };
             break;
 
-          case 'save':
+          case 'save_conversation':
             if (typeof args.conversation !== 'string') {
               res.status(400).json({
                 jsonrpc: '2.0',
